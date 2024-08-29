@@ -1,0 +1,111 @@
+*{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="32" height="32"><circle cx="8" cy="8" r="7" fill="black"/></svg>') 6 6, auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .weeksColumn {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: left;
+    margin: 1px;
+  }
+
+  .weeksColumn a {
+    margin-right: 10px;
+    display: block;
+    padding: 1px 0;
+    color: blue;
+    text-decoration: none;
+  }
+
+  .blogContent {
+    /* border-top: 1px solid black; */
+    padding-top: 20px;
+    display: none; 
+  }
+
+  .active {
+    display: block; /* Show the active blog content */
+  }
+
+  #specialLink {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  #specialLink:hover {
+    text-decoration: underline; 
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    animation-name: out; 
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    background-color: rgba(0, 255, 0, 0); 
+  }
+  
+  a:hover {
+    /* color: blue; */
+    background-color: rgba(0, 255, 0, 1); 
+    animation-name: over; 
+    animation-duration: 0s; 
+  }
+  
+  /* a:visited {
+    color: blue;
+  } */
+  
+  a, a:visited, a:link {
+    color: black; 
+    text-decoration: none;
+  }
+  
+  /* p{
+    font-size: 5vh;
+  } */
+  
+  /* h1{
+    font-size: 3vh;
+  } */
+  
+  p > a {
+    color: black;
+  }
+  
+  p > a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  p > a, p > a:hover {
+    animation: none; 
+  }
+  
+  @keyframes over {
+    from {background-color: rgba(0, 255, 0, 0); color: black;} 
+    to {background-color: rgba(0, 255, 0, 1);} 
+  }
+  
+  @keyframes out {
+    from {background-color: rgba(0, 255, 0, 1);} 
+    to {background-color: rgba(0, 255, 0, 0); color: black;} 
+  }

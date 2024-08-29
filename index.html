@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSE 40842</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1><a href="https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/" id="specialLink">Hackers in the Bazaar</a>, Fall 2024</h1>
+    <h3>Reading reflection for CSE 40842, Fall 2024, <a href="https://haotianwang.net/" id="specialLink">Haotian Wang</a></h3>
+    <div class="weeksColumn">
+      <a href="#" onclick="showContent('week1')">I. TRUE HACKERS</a>
+      <a href="#" onclick="showContent('week2')">II</a>
+      <a href="#" onclick="showContent('week3')">III</a>
+      <a href="#" onclick="showContent('week4')">IV</a>
+      <a href="#" onclick="showContent('week5')">V</a>
+      <a href="#" onclick="showContent('week6')">VI</a>
+    </div>
+    
+    <div id="week1" class="blogContent">
+      <h3>Blog Post 1</h3>
+      <p>incoming blogs</p>
+    </div>
+    <div id="week2" class="blogContent">
+      <h3>Blog Post 2</h3>
+      <p>This is the content of the second blog post.</p>
+    </div>
+    <div id="week3" class="blogContent">
+        <h3>Blog Post 3</h3>
+      </div>
+      <div id="week4" class="blogContent">
+        <h3>Blog Post 4</h3>
+        <p>This is the content of the second blog post.</p>
+      </div>   
+       <div id="week5" class="blogContent">
+        <h3>Blog Post 5</h3>
+      </div>
+      <div id="week6" class="blogContent">
+        <h3>Blog Post 6</h3>
+        <p>This is the content of the second blog post.</p>
+      </div>
+    
+    </div>
+
+  <script>
+    function showContent(blogId) {
+      // hide all blog content sections
+      const blogContents = document.querySelectorAll('.blogContent');
+      blogContents.forEach(function(content) {
+        content.classList.remove('active');
+      });
+
+      // show the selected blog content
+      document.getElementById(blogId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
