@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
     <title>CSE 40842 Blog</title>
-    <link>https://haotianw177.github.io/blogs/#</link>
+    <link>https://haotianw177.github.io/blogs/</link>
     <description>Reading reflection for CSE 40842, Fall 2024</description>
     <language>en-us</language>
     <pubDate>Thu, 30 Aug 2024 00:00:00 +0000</pubDate>
@@ -10,20 +9,19 @@
 
     <item>
       <title>Blog Post 1 - TRUE HACKERS</title>
-      <link>https://haotianw177.github.io/blogs/#</link>
+      <link>https://haotianw177.github.io/blogs/#week1</link>
       <description>Incoming blogs</description>
       <pubDate>Thu, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://haotianw177.github.io/blogs/#</guid>
+      <guid>https://haotianw177.github.io/blogs/#week1</guid>
     </item>
 
     <item>
       <title>Blog Post 2</title>
-      <link>https://haotianw177.github.io/blogs/#</link>
+      <link>https://haotianw177.github.io/blogs/#week2</link>
       <description>This is the content of the second blog post.</description>
       <pubDate>Thu, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://haotianw177.github.io/blogs/#</guid>
+      <guid>https://haotianw177.github.io/blogs/#week2</guid>
     </item>
 
-    
   </channel>
 </rss>
