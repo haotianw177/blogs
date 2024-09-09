@@ -6,7 +6,7 @@
     <description>Reading reflection for CSE 40842, Fall 2024</description>
     <language>en-us</language>
     <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
     
     <!--  a self-referential link -->
     <atom:link href="https://haotianw177.github.io/blogs/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom" />
@@ -22,8 +22,8 @@
     <item>
       <title>Blog Post 2 - HARDWARE HACKERS</title>
       <link>https://haotianw177.github.io/blogs/#week2</link>
-      <description>This is the content of the second blog post.</description>
-      <pubDate>Sunday, 8 Sep, 2024 00:00:00 +0000</pubDate>
+      <description>People would pay for a hammer to do its job, not for it to exist... (summarized or full content from week 2)</description>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://haotianw177.github.io/blogs/week2</guid>
     </item>
 
