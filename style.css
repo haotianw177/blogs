@@ -20,7 +20,7 @@ body {
   }
 
   .weeksColumn {
-    /* display: flex; */
+    display: flex;
     /* justify-content: center; */
     text-align: left;
     margin: 1px;
