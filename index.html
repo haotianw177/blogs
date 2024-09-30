@@ -2,130 +2,563 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSE 40842</title>
-<link rel="stylesheet" href="style.css">
-<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://haotianw177.github.io/blogs/feed.xml">
-</head>
-<body>
-  <div class="wrapper">
-    <h1><a href="https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/" id="specialLink">Hackers in the Bazaar</a>, Fall 2024</h1>
-    <h3>Reading reflection for CSE 40842 at the University of Notre Dame, website made by
-      <a href="https://haotianwang.net/" id="specialLink">Haotian Wang</a></h3>
-    <div class="weeksColumn">
-      <a href="#" onclick="showContent('week1')">I. True Hackers</a>
-      <a href="#" onclick="showContent('week2')">II. Hardware Hackers</a>
-      <a href="#" onclick="showContent('week3')">III. Game Hackers</a>
-      <a href="#" onclick="showContent('week4')">IV. Nerds and Hackers</a>
-      <!-- <a href="#" onclick="showContent('week5')">V</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSE 40842</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed"
+      href="https://haotianw177.github.io/blogs/feed.xml"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>
+        <a
+          href="https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/"
+          id="specialLink"
+          >Hackers in the Bazaar</a
+        >, Fall 2024
+      </h1>
+      <h3>
+        Reading reflection for CSE 40842 at the University of Notre Dame,
+        website made by
+        <a href="https://haotianwang.net/" id="specialLink">Haotian Wang</a>
+      </h3>
+      <div class="weeksColumn">
+        <a href="#" onclick="showContent('week1')">I. True Hackers</a>
+        <a href="#" onclick="showContent('week2')">II. Hardware Hackers</a>
+        <a href="#" onclick="showContent('week3')">III. Game Hackers</a>
+        <a href="#" onclick="showContent('week4')">IV. Nerds and Hackers</a>
+        <!-- <a href="#" onclick="showContent('week5')">V</a>
       <a href="#" onclick="showContent('week6')">VI</a> -->
-    </div>
-    <div class="divider">  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
-    </div>
-    <div id="week1" class="blogContent">
-      <h2>True Hackers</h2>
-      <p>Friday, August 30, 2024</p>
-      <br>
-      <h3>“The world opened up by the computer was a limitless one”<br><br>
-        What is a true hacker? Steve Levy states that a true hacker is knowledgeable in their technology domain to push boundaries and explore systems, is driven by curiosity and a passion for problem-solving, and is committed to the principles of openness, mistrust authority(promote decentralization), and all information should be free. A true hacker is characterized by the obsessiveness of their craft, determination, curiosity, and openness. 
-        <br><br>
-        One quality that stands out to me is hackers believe that “essential lessons can be learned about the systems(about the world) from taking things apart, seeing how they work, and using that knowledge to create new and more interesting things”. The first thing that comes to mind is why? To satisfy their curiosity? To fix a broken thing or to improve the performance of a system? “Imperfect systems infuriate hackers, whose primal instinct is to debug them.” You can create art and beauty on a computer and hackers are the artists who paint with the brush. In a way, the hacker is an example of inheritance best of both worlds. A perfectionist who envisions the perfect system and an action taker who’s not afraid to act on their vision and dive into the unknown by tearing things apart, improving existing systems, or building a new creation from the ground up. I admire them for being the brave ones in their domain.
-        <br><br>
-        True hackers share this belief that whatever goal they set their mind to, they will achieve it, one way or another. They have this “blind confidence” in their capability to create something out of limited resources. If a program does not exist, they will bring it to life. Peter Samson had a deep interest in music and computers, and he translated his interests into the creation of a pioneering program that allowed the cranky huge machine to play music, which was unheard of at the time.
-        <br><br>
-        The standard thinking on computer, their time was so precious that one should only attempt things which took maximum advantage of the computer. However, hackers chose to act on their beliefs: anything that seemed interesting or fun was fodder and encouraged. Of course, such pursuit resulted in pioneering programs such as Music Player and Spacewar. Another quality that I admire about hacker culture is they believe that learning comes from doing, and not merely from the classroom. TMRC hacker Bob Wagner wrote 3000 lines of code for a computer program to perform the function of a calculator and proudly did his Numerical Analysis homework on it. He received an 0 for achieving the same goal with significantly more complicated methods but he couldn’t care less. Arguably, when he went out of his way to integrate his passion into problem-solving required significantly more learning while achieving the same goal.
-        <br><br>
-        A notion that has initially struck me is how hackers believe that information should be free. Steve "Slug" Russell and his peers who created and improved the original Spacewar game decided to freely distribute the software of video games to others as they are open and welcoming for anybody to make changes and improve the games. They weren’t thinking of profit but the contribution to the open-source community. For some reason, I keep thinking about how Steve Jobs and Steve Wozniak made Blue boxes that allowed people to make free, illegal, long-distance phone calls and they decided to sell for profit. Even though they were not in the same time period, could it mean hackers share a common ethics but still act on their own beliefs?
-        <br><br>
-        I found the idea of a true hacker inspirational. My previous impression of a hacker is someone who uses their knowledge of technology to illegally break into a digital system to take advantage of the breach, mostly for financial gain or access to information. Levy’s writing challenged my notion of a hacker and allowed a comprehensive view of their characteristics and ethics from the original hackers. I started to understand their motives and drives come from curiosity and implementing improvement to the system. In many ways, I believe I subscribe the the hacker’s beliefs, values, and way of thinking. The hacker culture is “hermit-like”, which is true to some extent. They avoid people that’s not their kind but have no problem socializing with fellow hackers. It functions like the star in the space war game that pulls like-minded people in with gravitational force, with their love for hacking, sci-fi references, bad movies, and Chinese food. As much as I share similar passions and interests, I do not see myself living the lifestyle of a true hacker as I believe that there’s more to life. I believe in taking what’s good and abandoning what’s bad. For example, I subscribe to obsessiveness over one’s craft and improvement in the system, but I also value balance and a somewhat healthy lifestyle which prevent me from staying up all night for a 30-hour hacking session. However, something I’ve always believed in is that we could be the best of both worlds.
-        <br><br>
-        
+      </div>
+      <div class="divider">
+        +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+      </div>
+      <div id="week1" class="blogContent">
+        <h2>True Hackers</h2>
+        <p>Friday, August 30, 2024</p>
+        <br />
+        <h3>
+          “The world opened up by the computer was a limitless one”<br /><br />
+          What is a true hacker? Steve Levy states that a true hacker is
+          knowledgeable in their technology domain to push boundaries and
+          explore systems, is driven by curiosity and a passion for
+          problem-solving, and is committed to the principles of openness,
+          mistrust authority(promote decentralization), and all information
+          should be free. A true hacker is characterized by the obsessiveness of
+          their craft, determination, curiosity, and openness.
+          <br /><br />
+          One quality that stands out to me is hackers believe that “essential
+          lessons can be learned about the systems(about the world) from taking
+          things apart, seeing how they work, and using that knowledge to create
+          new and more interesting things”. The first thing that comes to mind
+          is why? To satisfy their curiosity? To fix a broken thing or to
+          improve the performance of a system? “Imperfect systems infuriate
+          hackers, whose primal instinct is to debug them.” You can create art
+          and beauty on a computer and hackers are the artists who paint with
+          the brush. In a way, the hacker is an example of inheritance best of
+          both worlds. A perfectionist who envisions the perfect system and an
+          action taker who’s not afraid to act on their vision and dive into the
+          unknown by tearing things apart, improving existing systems, or
+          building a new creation from the ground up. I admire them for being
+          the brave ones in their domain.
+          <br /><br />
+          True hackers share this belief that whatever goal they set their mind
+          to, they will achieve it, one way or another. They have this “blind
+          confidence” in their capability to create something out of limited
+          resources. If a program does not exist, they will bring it to life.
+          Peter Samson had a deep interest in music and computers, and he
+          translated his interests into the creation of a pioneering program
+          that allowed the cranky huge machine to play music, which was unheard
+          of at the time.
+          <br /><br />
+          The standard thinking on computer, their time was so precious that one
+          should only attempt things which took maximum advantage of the
+          computer. However, hackers chose to act on their beliefs: anything
+          that seemed interesting or fun was fodder and encouraged. Of course,
+          such pursuit resulted in pioneering programs such as Music Player and
+          Spacewar. Another quality that I admire about hacker culture is they
+          believe that learning comes from doing, and not merely from the
+          classroom. TMRC hacker Bob Wagner wrote 3000 lines of code for a
+          computer program to perform the function of a calculator and proudly
+          did his Numerical Analysis homework on it. He received an 0 for
+          achieving the same goal with significantly more complicated methods
+          but he couldn’t care less. Arguably, when he went out of his way to
+          integrate his passion into problem-solving required significantly more
+          learning while achieving the same goal.
+          <br /><br />
+          A notion that has initially struck me is how hackers believe that
+          information should be free. Steve "Slug" Russell and his peers who
+          created and improved the original Spacewar game decided to freely
+          distribute the software of video games to others as they are open and
+          welcoming for anybody to make changes and improve the games. They
+          weren’t thinking of profit but the contribution to the open-source
+          community. For some reason, I keep thinking about how Steve Jobs and
+          Steve Wozniak made Blue boxes that allowed people to make free,
+          illegal, long-distance phone calls and they decided to sell for
+          profit. Even though they were not in the same time period, could it
+          mean hackers share a common ethics but still act on their own beliefs?
+          <br /><br />
+          I found the idea of a true hacker inspirational. My previous
+          impression of a hacker is someone who uses their knowledge of
+          technology to illegally break into a digital system to take advantage
+          of the breach, mostly for financial gain or access to information.
+          Levy’s writing challenged my notion of a hacker and allowed a
+          comprehensive view of their characteristics and ethics from the
+          original hackers. I started to understand their motives and drives
+          come from curiosity and implementing improvement to the system. In
+          many ways, I believe I subscribe the the hacker’s beliefs, values, and
+          way of thinking. The hacker culture is “hermit-like”, which is true to
+          some extent. They avoid people that’s not their kind but have no
+          problem socializing with fellow hackers. It functions like the star in
+          the space war game that pulls like-minded people in with gravitational
+          force, with their love for hacking, sci-fi references, bad movies, and
+          Chinese food. As much as I share similar passions and interests, I do
+          not see myself living the lifestyle of a true hacker as I believe that
+          there’s more to life. I believe in taking what’s good and abandoning
+          what’s bad. For example, I subscribe to obsessiveness over one’s craft
+          and improvement in the system, but I also value balance and a somewhat
+          healthy lifestyle which prevent me from staying up all night for a
+          30-hour hacking session. However, something I’ve always believed in is
+          that we could be the best of both worlds.
+          <br /><br />
         </h3>
-    </div>
-    <div id="week2" class="blogContent">
-      <h2>Hardware Hackers</h2>
-      <p>Sunday, September 08, 2024</p>
-      <br>
-      <h3>People would pay for a hammer to do its job, not for it to exist.
-        <br><br>
-        True hackers value technical ability and raw creativity that proves oneself that’s worthy to their inclusive community of hacking into software. Anyone who can’t or who doesn’t dedicate all of their time to hacking is considered a “loser". Hardware hackers were activated during the Vietnam War and the hippie and counter-culture movements. They believe that bringing computers to the masses would create a better and more liberated society and technology would empower people and the world. The computer was a tool that large institutions had sequestered. Opening it up and making it available to everyone was the ultimate act of liberation.
-        <br><br>
-        Upon reading the second part of the book, I’m mostly intrigued by why the notion of free software couldn't continue outside the MIT lab. Certainly, we have to bring up two of the biggest tech companies in the world that were born during the hardware hackers era. With the popularity and the floating copies of Altair Basic, Bill Gates published "An Open Letter to Hobbyists" and called out that software would only be better when people received incentives for their hard work. At Apple, Steve Wozniak and Steve Jobs had different opinions on the approach to personal computers, especially regarding whether they should be free and accessible to everyone or commercialized. Something worth noticing is that at MIT labs software was freely distributed among students, even placed in a drawer right next to the computer. The Homebrew Computer Club follows the rule that if you take one copy of the software, you should bring back two copies. Times have changed when computers reached the hands of hardware hackers, this is the era when the ideal was compromised into reality when business and profitability were taken into personal computers. As much as I subscribe to the true hackers’ ethics, I must admit that hackers themselves exist in a niche market. The idealization of 100% freely distributed software will work in a niche environment like MIT hackers when the student group devotes their entire life to hacking when the club of true hackers itself is exclusive. Once the technology is brought to the masses by hardware hackers, there will inevitably be friction during adoption. Human nature is complex and dynamic. I think Bill Gates is only the first person to decide to profit from the software. If it wasn’t him, it would be someone else. Just like how Amazon survived to be the biggest commerce website in the US, if not for Jeff Bezos, someone would have decided and succeeded in profiting from the online shipping theme of the internet age. 
-        Proprietary software has shaped today's industry standards, with companies like Microsoft and Apple embodying the entrepreneurial spirit of early hardware innovators
-        <br><br>
-        Why can't we have free software? I would say the reason behind it is rooted in human nature around value and ownership. However, the idealization of free software and open-source has not completely died out. Many of the hackers continued to believe that free software will be driven by community innovation rather than corporate interests. While Bill Gates was moaning about ripoffs, Tom Pittman made an interpreter and decided to test out whether would people pay for software when it was cheaper. People would send him a mail with a donation, saying that 5 dollars is too little or they already have a copy from their friend so no need to mail anything to them. Today, half of the world's servers are running on Linux and the open-source community voluntarily maintains it with no monetary incentives.
-        <br><br>
-        The true hacker ethics of willingness to share information freely for the ultimately collective good still survives and actively contributes to the hacker culture today. I think compromising the ideal for mass adoption is important in spreading the hacker ethic. People should be granted free access to a computer and information, and benefit from the personal computer and devices revolution when accessibility was brought from the university labs to our hands.
+      </div>
+      <div id="week2" class="blogContent">
+        <h2>Hardware Hackers</h2>
+        <p>Sunday, September 08, 2024</p>
+        <br />
+        <h3>
+          People would pay for a hammer to do its job, not for it to exist.
+          <br /><br />
+          True hackers value technical ability and raw creativity that proves
+          oneself that’s worthy to their inclusive community of hacking into
+          software. Anyone who can’t or who doesn’t dedicate all of their time
+          to hacking is considered a “loser". Hardware hackers were activated
+          during the Vietnam War and the hippie and counter-culture movements.
+          They believe that bringing computers to the masses would create a
+          better and more liberated society and technology would empower people
+          and the world. The computer was a tool that large institutions had
+          sequestered. Opening it up and making it available to everyone was the
+          ultimate act of liberation.
+          <br /><br />
+          Upon reading the second part of the book, I’m mostly intrigued by why
+          the notion of free software couldn't continue outside the MIT lab.
+          Certainly, we have to bring up two of the biggest tech companies in
+          the world that were born during the hardware hackers era. With the
+          popularity and the floating copies of Altair Basic, Bill Gates
+          published "An Open Letter to Hobbyists" and called out that software
+          would only be better when people received incentives for their hard
+          work. At Apple, Steve Wozniak and Steve Jobs had different opinions on
+          the approach to personal computers, especially regarding whether they
+          should be free and accessible to everyone or commercialized. Something
+          worth noticing is that at MIT labs software was freely distributed
+          among students, even placed in a drawer right next to the computer.
+          The Homebrew Computer Club follows the rule that if you take one copy
+          of the software, you should bring back two copies. Times have changed
+          when computers reached the hands of hardware hackers, this is the era
+          when the ideal was compromised into reality when business and
+          profitability were taken into personal computers. As much as I
+          subscribe to the true hackers’ ethics, I must admit that hackers
+          themselves exist in a niche market. The idealization of 100% freely
+          distributed software will work in a niche environment like MIT hackers
+          when the student group devotes their entire life to hacking when the
+          club of true hackers itself is exclusive. Once the technology is
+          brought to the masses by hardware hackers, there will inevitably be
+          friction during adoption. Human nature is complex and dynamic. I think
+          Bill Gates is only the first person to decide to profit from the
+          software. If it wasn’t him, it would be someone else. Just like how
+          Amazon survived to be the biggest commerce website in the US, if not
+          for Jeff Bezos, someone would have decided and succeeded in profiting
+          from the online shipping theme of the internet age. Proprietary
+          software has shaped today's industry standards, with companies like
+          Microsoft and Apple embodying the entrepreneurial spirit of early
+          hardware innovators
+          <br /><br />
+          Why can't we have free software? I would say the reason behind it is
+          rooted in human nature around value and ownership. However, the
+          idealization of free software and open-source has not completely died
+          out. Many of the hackers continued to believe that free software will
+          be driven by community innovation rather than corporate interests.
+          While Bill Gates was moaning about ripoffs, Tom Pittman made an
+          interpreter and decided to test out whether would people pay for
+          software when it was cheaper. People would send him a mail with a
+          donation, saying that 5 dollars is too little or they already have a
+          copy from their friend so no need to mail anything to them. Today,
+          half of the world's servers are running on Linux and the open-source
+          community voluntarily maintains it with no monetary incentives.
+          <br /><br />
+          The true hacker ethics of willingness to share information freely for
+          the ultimately collective good still survives and actively contributes
+          to the hacker culture today. I think compromising the ideal for mass
+          adoption is important in spreading the hacker ethic. People should be
+          granted free access to a computer and information, and benefit from
+          the personal computer and devices revolution when accessibility was
+          brought from the university labs to our hands.
         </h3>
-    </div>
-    <div id="week3" class="blogContent">
+      </div>
+      <div id="week3" class="blogContent">
         <h2>Game Hackers</h2>
         <p>Sunday, September 15, 2024</p>
-        <br>
-        <h3>The third generation of hackers living in a world that flourishes from the foundations built by MIT and hardware hackers. Access to computers has become unlimited and total. Video games being the most popular software at the time were distributed to millions of people and spiral the sale of personal computers. Innovation was fueled by competition, monetary incentives, and greed. Is greed a good thing for innovation? I think the answer is yes but with balance. Reality is always somewhere in between(the compromise of idealism and nature), when companies prioritize both creativity and profitability, they can create sustainable innovation. But when greed becomes the dominant force, it can lead to short-term thinking and stifle creativity with individuals or companies focusing on quick profits rather than having a long-term vision for innovation( Lootboxes and Game Pass). In today's market, we see mass success of tripe A games and also indie games. They are a reflection of companies who are motivated by incentives and studios with intrinsic motivation, both contribute to the balance of the market.
-          <br><br>
-          Steve Levy asks the question “Why shouldn’t Atari be happy with a royalty paid by people who wanted to hack Pac-Man code and eventually improve the game? Did the public benefit from one company ‘owning’ a piece of software and preventing others from making it more useful?” Such philosophical suggestion reflect how hacker ethics compromise when it meets the market. Hackers would start to consider paying royalties in exchange for the ability to use and modify that original code, which is not something MIT and hardware hackers would consider. It is the ultimate collision between idealism and reality. A couple of decades have passed since John Harris made the Jawbreaker and the intellectual protection for video games has become more robust. However, the philosophical suggestions many hackers believe have come to a reality with the rise of open-source software and modding communities today. Platforms such as Valve would encourage players to purchase mods as part of the sales go the original mods creator, Unreal Engine would start taking 5% royalties for games that exceed 2 million dollars in sales. Maybe the money is not only the incentives, money is a reflection of approval for people buying the software products. Hackers should be judged by their hacking, and now the power has moved from the hacker circle to the public. In some cases, money is not one-dimensional but also a reflection of how good the hacking is, and it could also act as a motivation for the hackers. 
-          <br><br>
-          I think hacker ethics can survive in a world of commercial and proprietary software, however, it’s difficult to become the mainstream voice. I believe the vast majority of the market is filled with bureaucracy and greed, a reflection of human nature and constructs. I think it’s more likely for hacker ethics to be empowered by individuals who are intrinsically motivated, and flourish in small organizations but not large corporations. Sierra On-Line grew and became more successful and Ken Williams began to prioritize making Sierra a more structured and commercial success company. Many companies follow this pattern of starting as a creative powerhouse but as they grow and scale, to survive, compete, and dominate, they have to embrace business practices that support long-term growth and profitability. A simple analogy would be, that with more people in a friend group, it's hard to decide on where to hang out on Sunday. If you want to friend group who's passionate about hiking, keep the friends group small and connect with other groups who like hiking.
-          <br><br>
-          It’s a big world and there’d always be someone who believes in and embodies hacker’s ethics and perfectionism, grabbing the ring without being corrupted. Chris Sawyer wrote the entire Roller Coaster Tycoon in x86 assembly in a period in which there were high-level programming languages to be chosen from. John Harris spends his free time hacking games and the reward it’s simply just the satisfaction of doing it. Today, many developing tools(popular web-developing frameworks like React and Vue, OS like Linux) are being freely distributed and maintained by the open-source community, they did it out of love, intrinsic motives, and beliefs of hacker ethics.  I think the longevity of good products would be better off to keep open-source than exclusive. It sounds communist but we've seen countless examples of how bad greed and power disrupt. When kept open-source, the software is constantly being corrected by the masses and reflects the median of the mass opinions, rather than being centralized to a selected group of people who maybe don't even under the basics.
-          <br><br>
-          I don’t believe in one-dimensional and believe that we could always be the best of both worlds. In modern-day software development theme, we are expected to be professional as there are strict deadlines and expectations for working in a software company to develop software. Software engineers are expected to develop reliable and ethical (a bit ambiguous/idealistic) software products that have much real-world impact. Instances such as CrowdStrike and Microsoft outages should be strictly avoided due to the power they have on the economy and social impact. However, in addition to being professional, I think programmers should have a love for computing in their hearts. People who don't care will never make great products. As a CS student there are multiple instances where I get burned out studying the subject, what pulls me back on track has always been self-discipline(what you need to go far in anything) and my general love for computing. No matter what I’m doing, browsing online, playing games, or learning computer concepts, I love sitting in front of my computer and learn new things on it. After finishing Lvey’s book, I realized I have been practicing some of the hacker’s ethics without knowing and I believe that it’s natural for me to try to keep on practicing the hacker ethics and perfectionism.
-          </h3>
+        <br />
+        <h3>
+          The third generation of hackers living in a world that flourishes from
+          the foundations built by MIT and hardware hackers. Access to computers
+          has become unlimited and total. Video games being the most popular
+          software at the time were distributed to millions of people and spiral
+          the sale of personal computers. Innovation was fueled by competition,
+          monetary incentives, and greed. Is greed a good thing for innovation?
+          I think the answer is yes but with balance. Reality is always
+          somewhere in between(the compromise of idealism and nature), when
+          companies prioritize both creativity and profitability, they can
+          create sustainable innovation. But when greed becomes the dominant
+          force, it can lead to short-term thinking and stifle creativity with
+          individuals or companies focusing on quick profits rather than having
+          a long-term vision for innovation( Lootboxes and Game Pass). In
+          today's market, we see mass success of tripe A games and also indie
+          games. They are a reflection of companies who are motivated by
+          incentives and studios with intrinsic motivation, both contribute to
+          the balance of the market. <br /><br />
+          Steve Levy asks the question “Why shouldn’t Atari be happy with a
+          royalty paid by people who wanted to hack Pac-Man code and eventually
+          improve the game? Did the public benefit from one company ‘owning’ a
+          piece of software and preventing others from making it more useful?”
+          Such philosophical suggestion reflect how hacker ethics compromise
+          when it meets the market. Hackers would start to consider paying
+          royalties in exchange for the ability to use and modify that original
+          code, which is not something MIT and hardware hackers would consider.
+          It is the ultimate collision between idealism and reality. A couple of
+          decades have passed since John Harris made the Jawbreaker and the
+          intellectual protection for video games has become more robust.
+          However, the philosophical suggestions many hackers believe have come
+          to a reality with the rise of open-source software and modding
+          communities today. Platforms such as Valve would encourage players to
+          purchase mods as part of the sales go the original mods creator,
+          Unreal Engine would start taking 5% royalties for games that exceed 2
+          million dollars in sales. Maybe the money is not only the incentives,
+          money is a reflection of approval for people buying the software
+          products. Hackers should be judged by their hacking, and now the power
+          has moved from the hacker circle to the public. In some cases, money
+          is not one-dimensional but also a reflection of how good the hacking
+          is, and it could also act as a motivation for the hackers.
+          <br /><br />
+          I think hacker ethics can survive in a world of commercial and
+          proprietary software, however, it’s difficult to become the mainstream
+          voice. I believe the vast majority of the market is filled with
+          bureaucracy and greed, a reflection of human nature and constructs. I
+          think it’s more likely for hacker ethics to be empowered by
+          individuals who are intrinsically motivated, and flourish in small
+          organizations but not large corporations. Sierra On-Line grew and
+          became more successful and Ken Williams began to prioritize making
+          Sierra a more structured and commercial success company. Many
+          companies follow this pattern of starting as a creative powerhouse but
+          as they grow and scale, to survive, compete, and dominate, they have
+          to embrace business practices that support long-term growth and
+          profitability. A simple analogy would be, that with more people in a
+          friend group, it's hard to decide on where to hang out on Sunday. If
+          you want to friend group who's passionate about hiking, keep the
+          friends group small and connect with other groups who like hiking.
+          <br /><br />
+          It’s a big world and there’d always be someone who believes in and
+          embodies hacker’s ethics and perfectionism, grabbing the ring without
+          being corrupted. Chris Sawyer wrote the entire Roller Coaster Tycoon
+          in x86 assembly in a period in which there were high-level programming
+          languages to be chosen from. John Harris spends his free time hacking
+          games and the reward it’s simply just the satisfaction of doing it.
+          Today, many developing tools(popular web-developing frameworks like
+          React and Vue, OS like Linux) are being freely distributed and
+          maintained by the open-source community, they did it out of love,
+          intrinsic motives, and beliefs of hacker ethics. I think the longevity
+          of good products would be better off to keep open-source than
+          exclusive. It sounds communist but we've seen countless examples of
+          how bad greed and power disrupt. When kept open-source, the software
+          is constantly being corrected by the masses and reflects the median of
+          the mass opinions, rather than being centralized to a selected group
+          of people who maybe don't even under the basics.
+          <br /><br />
+          I don’t believe in one-dimensional and believe that we could always be
+          the best of both worlds. In modern-day software development theme, we
+          are expected to be professional as there are strict deadlines and
+          expectations for working in a software company to develop software.
+          Software engineers are expected to develop reliable and ethical (a bit
+          ambiguous/idealistic) software products that have much real-world
+          impact. Instances such as CrowdStrike and Microsoft outages should be
+          strictly avoided due to the power they have on the economy and social
+          impact. However, in addition to being professional, I think
+          programmers should have a love for computing in their hearts. People
+          who don't care will never make great products. As a CS student there
+          are multiple instances where I get burned out studying the subject,
+          what pulls me back on track has always been self-discipline(what you
+          need to go far in anything) and my general love for computing. No
+          matter what I’m doing, browsing online, playing games, or learning
+          computer concepts, I love sitting in front of my computer and learn
+          new things on it. After finishing Lvey’s book, I realized I have been
+          practicing some of the hacker’s ethics without knowing and I believe
+          that it’s natural for me to try to keep on practicing the hacker
+          ethics and perfectionism.
+        </h3>
       </div>
       <div id="week4" class="blogContent">
         <h2>Nerds and Hackers</h2>
         <p>Sunday, September 29, 2024</p>
-        <br>
-        <h3>I found that Paul Graham’s version of a hacker mostly matched Steven Levy’s description with a slight emphasis on independence. Paul believes that hackers are makers, just like painters and architects, they thrive on learning by doing(hands-on imperative). Levy emphasizes the revolutionary spirit, communal aspects, and ethical dimension of hacking, while Graham focuses on individual creativity and the maker mindset. Paul Graham presents a more uncritical, positive portrayal of hackers and his perspective is more aligned with current entrepreneurial and technological trends. He pointed out that modern hackers(software engineers) are merely technicians who translate the visions (if that is the word) of product managers into code. Compared to video game companies in the 80s who praised their star hackers, nowadays for big companies the default plan is to suppress creativities. They do it because it decreases the standard deviation of the outcome. Only a small percentage of hackers can design software, and it's hard for the people running a company to pick these out. So instead of entrusting the future of the software to one brilliant hacker, most companies set things up so that it is designed by a committee, and the hackers merely implement the design. The problem is that when you damp oscillations, you lose the high points and the low. Nowadays it’s rarer for large companies to come up with innovative software, but there’s still hope in smaller organizations and individual programmers.
-          <br><br>
-          Deriving from original MIT hackers, with less emphasis on hacker ethics, Paul believes that hackers are craftsmen, who practice design through software development and care significantly about the execution and details of their creation. Ironically, he also points out that “It's odd that people think of programming as precise and methodical. Computers are precise and methodical. Hacking is something you do with a gleeful laugh.” Paul’s version of a hacker is someone who has the traits of playfulness and creativity, as well as the technical ability to dedicate his leisure time to writing beautiful software. Paul parallel with his own experience of learning and doing, pointed out that you should figure out programs as you're writing them, just as writers painters, and architects do. Contradicated to what we have learned in school which is to figure out the program on paper before we even write a single line of code. He called this process “ sketching”. He draws similarity to how painters figured out the details of painting as they progressed, no one figured out the whole painting at first. I see the reasoning behind this approach, as much like how people prefer different indentation styles for curly brackets, I prefer to sketch on a piece of paper. As much as I love working on my computer, there’s something magical about picking up a metal pen and scratching your idea on a piece of paper, taking a short break for your eyes from the computer screen. 
-          <br><br>
-          There are some interesting points Paul made to support his argument. Painters leave a trail of work behind them, you can watch them learn by doing. If you look at the work of a painter in chronological order, you'll find that each painting builds on things that have been learned in previous ones. When there's something in a painting that works very well, you can usually find version 1 of it in a smaller form in some earlier painting. Paul argues that hackers become great through a similar approach, they learn how to write beautiful programs by watching other people’s programs and the way to create something beautiful is often to make subtle tweaks to something that already exists, or to combine existing ideas in a slightly new way. It’s obvious that Paul sees hackers as creative and this description greatly matches the modern artistic creative scene. Often, new music, art, and movies are made from the adoption of something that already exists. As I was studying at art school, such an approach is common as we describe this process as pulling from inspiration, and often the final product is a mush before various inspiration sources.  A story I want to share is, for a long time when I was studying at art school, I struggled with the belief that it’s up to artists to come up with something completely original. Later I learned that this is not true and everything comes from inspiration and mimicking. There’s no new idea under the sun, everything is a reference to things that existed prior, and the only thing new is our point of view, how we express it, design it, and present it will make the idea new.
-          <br><br>
-          To Paul, hackers are similar to painters, someone who use code as a medium for creative expression(innovation and unique software), much like how painters smudge their paint on canvas. As a student who came from fine arts training, I could strongly resonate with this connection. My introduction to computer science came from creative play which uses code as a tool for creative expression, much like painting on a canvas. As far as the readings we have done so far, this week’s reading is something I resonate with and learned from the most. I get to validate lots of my own beliefs through Paul’s writing. I think Paul Graham's version of a hacker is largely compatible with Steven Levy's description. His arguments for modern hackers validated a lot of my own beliefs and I think I aligned more with his version of hackers than the hackers presented by Steve Levy. One thing that stood out to me is to create your vision of software, the benefit of working in a startup will exceed translating someone else vision in a large company. A side note, by Paul’s description of how he’s friends with lots of kids from the “freak” group in high school, I laughed out loud because I have never thought I matched the description of freaks and I’ve always wondered why I’m naturally gravitated towards making friends with those who consider as “nerds”. Marginalized group support each other I suppose.</h3>
-      </div>   
-       <div id="week5" class="blogContent">
+        <br />
+        <h3>
+          I found that Paul Graham’s version of a hacker mostly matched Steven
+          Levy’s description with a slight emphasis on independence. Paul
+          believes that hackers are makers, just like painters and architects,
+          they thrive on learning by doing(hands-on imperative). Levy emphasizes
+          the revolutionary spirit, communal aspects, and ethical dimension of
+          hacking, while Graham focuses on individual creativity and the maker
+          mindset. Paul Graham presents a more uncritical, positive portrayal of
+          hackers and his perspective is more aligned with current
+          entrepreneurial and technological trends. He pointed out that modern
+          hackers(software engineers) are merely technicians who translate the
+          visions (if that is the word) of product managers into code. Compared
+          to video game companies in the 80s who praised their star hackers,
+          nowadays for big companies the default plan is to suppress
+          creativities. They do it because it decreases the standard deviation
+          of the outcome. Only a small percentage of hackers can design
+          software, and it's hard for the people running a company to pick these
+          out. So instead of entrusting the future of the software to one
+          brilliant hacker, most companies set things up so that it is designed
+          by a committee, and the hackers merely implement the design. The
+          problem is that when you damp oscillations, you lose the high points
+          and the low. Nowadays it’s rarer for large companies to come up with
+          innovative software, but there’s still hope in smaller organizations
+          and individual programmers. <br /><br />
+          Deriving from original MIT hackers, with less emphasis on hacker
+          ethics, Paul believes that hackers are craftsmen, who practice design
+          through software development and care significantly about the
+          execution and details of their creation. Ironically, he also points
+          out that “It's odd that people think of programming as precise and
+          methodical. Computers are precise and methodical. Hacking is something
+          you do with a gleeful laugh.” Paul’s version of a hacker is someone
+          who has the traits of playfulness and creativity, as well as the
+          technical ability to dedicate his leisure time to writing beautiful
+          software. Paul parallel with his own experience of learning and doing,
+          pointed out that you should figure out programs as you're writing
+          them, just as writers painters, and architects do. Contradicated to
+          what we have learned in school which is to figure out the program on
+          paper before we even write a single line of code. He called this
+          process “ sketching”. He draws similarity to how painters figured out
+          the details of painting as they progressed, no one figured out the
+          whole painting at first. I see the reasoning behind this approach, as
+          much like how people prefer different indentation styles for curly
+          brackets, I prefer to sketch on a piece of paper. As much as I love
+          working on my computer, there’s something magical about picking up a
+          metal pen and scratching your idea on a piece of paper, taking a short
+          break for your eyes from the computer screen.
+          <br /><br />
+          There are some interesting points Paul made to support his argument.
+          Painters leave a trail of work behind them, you can watch them learn
+          by doing. If you look at the work of a painter in chronological order,
+          you'll find that each painting builds on things that have been learned
+          in previous ones. When there's something in a painting that works very
+          well, you can usually find version 1 of it in a smaller form in some
+          earlier painting. Paul argues that hackers become great through a
+          similar approach, they learn how to write beautiful programs by
+          watching other people’s programs and the way to create something
+          beautiful is often to make subtle tweaks to something that already
+          exists, or to combine existing ideas in a slightly new way. It’s
+          obvious that Paul sees hackers as creative and this description
+          greatly matches the modern artistic creative scene. Often, new music,
+          art, and movies are made from the adoption of something that already
+          exists. As I was studying at art school, such an approach is common as
+          we describe this process as pulling from inspiration, and often the
+          final product is a mush before various inspiration sources. A story I
+          want to share is, for a long time when I was studying at art school, I
+          struggled with the belief that it’s up to artists to come up with
+          something completely original. Later I learned that this is not true
+          and everything comes from inspiration and mimicking. There’s no new
+          idea under the sun, everything is a reference to things that existed
+          prior, and the only thing new is our point of view, how we express it,
+          design it, and present it will make the idea new.
+          <br /><br />
+          To Paul, hackers are similar to painters, someone who use code as a
+          medium for creative expression(innovation and unique software), much
+          like how painters smudge their paint on canvas. As a student who came
+          from fine arts training, I could strongly resonate with this
+          connection. My introduction to computer science came from creative
+          play which uses code as a tool for creative expression, much like
+          painting on a canvas. As far as the readings we have done so far, this
+          week’s reading is something I resonate with and learned from the most.
+          I get to validate lots of my own beliefs through Paul’s writing. I
+          think Paul Graham's version of a hacker is largely compatible with
+          Steven Levy's description. His arguments for modern hackers validated
+          a lot of my own beliefs and I think I aligned more with his version of
+          hackers than the hackers presented by Steve Levy. One thing that stood
+          out to me is to create your vision of software, the benefit of working
+          in a startup will exceed translating someone else vision in a large
+          company. A side note, by Paul’s description of how he’s friends with
+          lots of kids from the “freak” group in high school, I laughed out loud
+          because I have never thought I matched the description of freaks and
+          I’ve always wondered why I’m naturally gravitated towards making
+          friends with those who consider as “nerds”. Marginalized group support
+          each other I suppose.
+        </h3>
+      </div>
+      <div id="week5" class="blogContent">
         <h3>Blog Post 5</h3>
       </div>
       <div id="week6" class="blogContent">
         <h3>Blog Post 6</h3>
         <p>This is the content of the second blog post.</p>
       </div>
-    
     </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // get all blog content sections
-      const blogContents = document.querySelectorAll('.blogContent');
-      
-      // loop through each blog content section
-      blogContents.forEach(function(content) {
-        // create the "Back to Top" link element
-        const backToTopLink = document.createElement('a');
-        backToTopLink.href = "#top"; // set link to top of the page
-        backToTopLink.classList.add('backToTop'); // add the class for styling
-        backToTopLink.textContent = "Back to Top"; // set the text of the link
 
-        // append the link to the end of each blog content section
-        content.appendChild(backToTopLink);
+    <style>
+      * {
+        font-family: "neue-haas-grotesk-text", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="32" height="32"><circle cx="8" cy="8" r="7" fill="black"/></svg>')
+            6 6,
+          auto;
+      }
+
+      body {
+        /* font-family: neue-haas-grotesk-text, sans-serif; */
+        background-color: #fbf9f5;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      .wrapper {
+        margin: 50px auto 80px auto;
+        width: 50%;
+        /* padding: 20px; */
+        text-align: left;
+        /* border: 1px solid black; */
+      }
+
+      @media (max-width: 768px) {
+        .wrapper {
+          margin: 0 auto 150px auto;
+          width: 80%;
+        }
+      }
+
+      .weeksColumn {
+        display: flex;
+        /* justify-content: center; */
+        text-align: left;
+        /* margin: 1px; */
+      }
+
+      .weeksColumn a {
+        margin-right: 10px;
+        /* display: block; */
+        /* padding: 1px 0; */
+        /* color: blue; */
+        text-decoration: none;
+      }
+
+      .blogContent {
+        /* border-top: 1px solid black; */
+        margin-top: 50px;
+        /* padding-top: 20px; */
+        display: none;
+        /* line-height: 30px; */
+      }
+
+      .backToTop {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        /* font-size: 14px; */
+        text-decoration: underline;
+      }
+
+      .divider {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .active {
+        display: block; /* Show the active blog content */
+      }
+
+      #specialLink {
+        text-decoration: none;
+        color: black;
+      }
+
+      #specialLink:hover {
+        text-decoration: underline;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        animation-name: out;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        background-color: rgba(0, 255, 0, 0);
+      }
+
+      a:hover {
+        /* color: blue; */
+        background-color: rgba(0, 255, 0, 1);
+        animation-name: over;
+        animation-duration: 0s;
+      }
+
+      @keyframes over {
+        from {
+          background-color: rgba(0, 255, 0, 0);
+          color: black;
+        }
+        to {
+          background-color: rgba(0, 255, 0, 1);
+        }
+      }
+
+      @keyframes out {
+        from {
+          background-color: rgba(0, 255, 0, 1);
+        }
+        to {
+          background-color: rgba(0, 255, 0, 0);
+          color: black;
+        }
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // get all blog content sections
+        const blogContents = document.querySelectorAll(".blogContent");
+
+        // loop through each blog content section
+        blogContents.forEach(function (content) {
+          // create the "Back to Top" link element
+          const backToTopLink = document.createElement("a");
+          backToTopLink.href = "#top"; // set link to top of the page
+          backToTopLink.classList.add("backToTop"); // add the class for styling
+          backToTopLink.textContent = "Back to Top"; // set the text of the link
+
+          // append the link to the end of each blog content section
+          content.appendChild(backToTopLink);
+        });
       });
-    });
 
-    function showContent(blogId) {
-      // hide all blog content sections
-      const blogContents = document.querySelectorAll('.blogContent');
-      blogContents.forEach(function(content) {
-        content.classList.remove('active');
-      });
+      function showContent(blogId) {
+        // hide all blog content sections
+        const blogContents = document.querySelectorAll(".blogContent");
+        blogContents.forEach(function (content) {
+          content.classList.remove("active");
+        });
 
-      // show the selected blog content
-      document.getElementById(blogId).classList.add('active');
-    }
-
-    
-  </script>
-</body>
+        // show the selected blog content
+        document.getElementById(blogId).classList.add("active");
+      }
+    </script>
+  </body>
 </html>
