@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: neue-haas-grotesk-text, sans-serif; */
     background-color: #FBF9F5;
     margin: 0;
     padding: 0;
@@ -15,9 +15,10 @@ body {
 
   .wrapper {
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
     /* padding: 20px; */
     text-align: left;
+    border: 1px solid black;
   }
 
   .weeksColumn {
