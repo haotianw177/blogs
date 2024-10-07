@@ -18,25 +18,21 @@
   <body>
     <div class="wrapper">
       <div class="titleSection">
-        <h1>
-          <a
-            href="https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/"
-            id="specialLink"
-            ><h1>HACKERS IN THE BAZZAR</h1></a
-          >
+       <h1 class="hoverAnimation" onclick="showHiddenDescription()" >
+            HACKERS IN THE BAZZAR
         </h1>
-        <!-- <h3>
-          Reading reflection for CSE 40842 at the University of Notre Dame, Fall 2024.
+        <p id="hiddenDescription" style="display: none;">
+          Reading reflection for <a class="hoverAnimation" href="https://www3.nd.edu/~pbui/teaching/cse.40842.fa24/">CSE 40842</a> at the University of Notre Dame, Fall 2024.
           Website made by
-          <a href="https://haotianwang.net/" id="specialLink">Haotian Wang</a>
-        </h3> -->
+          <a class="hoverAnimation" href="https://haotianwang.net/" id="specialLink">Haotian Wang</a>
+        </p>
         <div class="weeksColumn">
           <h2>
-          <a href="#" onclick="showContent('week1')">I. True Hackers</a>
-          <a href="#" onclick="showContent('week2')">II. Hardware Hackers</a>
-          <a href="#" onclick="showContent('week3')">III. Game Hackers</a>
-          <a href="#" onclick="showContent('week4')">IV. Nerds and Hackers</a>
-          <a href="#" onclick="showContent('week5')">V. Programming Languages</a>
+          <a href="#" class="hoverAnimation" onclick="showContent('week1')">I. True Hackers</a>
+          <a href="#" class="hoverAnimation" onclick="showContent('week2')">II. Hardware Hackers</a>
+          <a href="#" class="hoverAnimation" onclick="showContent('week3')">III. Game Hackers</a>
+          <a href="#" class="hoverAnimation" onclick="showContent('week4')">IV. Nerds and Hackers</a>
+          <a href="#" class="hoverAnimation" onclick="showContent('week5')">V. Programming Languages</a>
 
           </h2>
         </div>
@@ -468,24 +464,31 @@
 
       h1{
         font-family: 'RecifeText', sans-serif;
-        font-size: 3rem;
+        font-size: 3.2rem;
         line-height: 1.2;
         margin:0; 
+        display: inline;
       }
+
+      /* h1:hover{
+        text-decoration: underline;
+      } */
 
       h2{
         font-family: 'RecifeText', sans-serif;
         margin:0; 
+        font-size: 1.5rem;
       }
 
       h3{
         margin: 0;
         line-height: 1.4;
+        font-size: 1.2rem;
       }
 
       P{
         font-family: 'RecifeText', sans-serif;
-
+        font-size: 1.2rem;
       }
 
       .wrapper {
@@ -542,7 +545,7 @@
       }
 
       .active {
-        display: block; /* Show the active blog content */
+        display: block; 
       }
 
       #specialLink {
@@ -554,7 +557,7 @@
         text-decoration: underline;
       }
 
-      a {
+      .hoverAnimation {
         text-decoration: none;
         color: black;
         animation-name: out;
@@ -563,7 +566,7 @@
         background-color: rgba(0, 255, 0, 0);
       }
 
-      a:hover {
+      .hoverAnimation:hover {
         /* color: blue; */
         background-color: rgba(0, 255, 0, 1);
         animation-name: over;
@@ -617,6 +620,15 @@
 
         // show the selected blog content
         document.getElementById(blogId).classList.add("active");
+      }
+
+      function showHiddenDescription(){
+        const hiddenDescription = document.getElementById("hiddenDescription");
+        if (hiddenDescription.style.display === "none") {
+          hiddenDescription.style.display = "block"; // show the h3
+        } else {
+          hiddenDescription.style.display = "none"; // hide the h3 again if already shown
+        }
       }
     </script>
   </body>
